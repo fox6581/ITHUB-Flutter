@@ -1,0 +1,15 @@
+com.example.time_planer.app-core-1.6.0-0 C:\Users\fox6581-temp\.gradle\caches\transforms-3\284a410c767ad6c7a2b0ffc8d8d85981\transformed\core-1.6.0\res
+com.example.time_planer.app-jetified-window-java-1.0.0-beta04-1 C:\Users\fox6581-temp\.gradle\caches\transforms-3\2a215381204751055df81b6269e717b7\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.time_planer.app-jetified-annotation-experimental-1.1.0-2 C:\Users\fox6581-temp\.gradle\caches\transforms-3\3d2f03fc996c2e0aa3dee5cfa3002cd1\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.time_planer.app-media-1.1.0-3 C:\Users\fox6581-temp\.gradle\caches\transforms-3\d0437f7986a0a2cb359d7d189a9ac969\transformed\media-1.1.0\res
+com.example.time_planer.app-jetified-window-1.0.0-beta04-4 C:\Users\fox6581-temp\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\res
+com.example.time_planer.app-main-5 C:\Users\fox6581-temp\StudioProjects\time_planer\android\app\src\main\res
+com.example.time_planer.app-release-6 C:\Users\fox6581-temp\StudioProjects\time_planer\android\app\src\release\res
+com.example.time_planer.app-pngs-7 C:\Users\fox6581-temp\StudioProjects\time_planer\build\app\generated\res\pngs\release
+com.example.time_planer.app-resValues-8 C:\Users\fox6581-temp\StudioProjects\time_planer\build\app\generated\res\resValues\release
+com.example.time_planer.app-rs-9 C:\Users\fox6581-temp\StudioProjects\time_planer\build\app\generated\res\rs\release
+com.example.time_planer.app-mergeReleaseResources-10 C:\Users\fox6581-temp\StudioProjects\time_planer\build\app\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.time_planer.app-mergeReleaseResources-11 C:\Users\fox6581-temp\StudioProjects\time_planer\build\app\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.time_planer.app-merged_res-12 C:\Users\fox6581-temp\StudioProjects\time_planer\build\app\intermediates\merged_res\release
+com.example.time_planer.app-packaged_res-13 C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\packaged_res\release
+com.example.time_planer.app-packaged_res-14 C:\Users\fox6581-temp\StudioProjects\time_planer\build\sqflite\intermediates\packaged_res\release

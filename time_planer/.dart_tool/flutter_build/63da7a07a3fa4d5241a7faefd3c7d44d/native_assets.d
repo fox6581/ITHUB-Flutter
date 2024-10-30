@@ -1,0 +1,1 @@
+ C:\\Users\\fox6581-temp\\StudioProjects\\time_planer\\.dart_tool\\flutter_build\\63da7a07a3fa4d5241a7faefd3c7d44d\\native_assets.yaml: 

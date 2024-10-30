@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.time_planer"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\fox6581-temp\StudioProjects\time_planer\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\fox6581-temp\StudioProjects\time_planer\android\app\src\debug\AndroidManifest.xml:6:22-64
+16    <!--
+17     Required to query activities that can process text, see:
+18         https://developer.android.com/training/package-visibility and
+19         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+20
+21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+22    -->
+23    <queries>
+23-->C:\Users\fox6581-temp\StudioProjects\time_planer\android\app\src\main\AndroidManifest.xml:39:5-44:15
+24        <intent>
+24-->C:\Users\fox6581-temp\StudioProjects\time_planer\android\app\src\main\AndroidManifest.xml:40:9-43:18
+25            <action android:name="android.intent.action.PROCESS_TEXT" />
+25-->C:\Users\fox6581-temp\StudioProjects\time_planer\android\app\src\main\AndroidManifest.xml:41:13-72
+25-->C:\Users\fox6581-temp\StudioProjects\time_planer\android\app\src\main\AndroidManifest.xml:41:21-70
+26
+27            <data android:mimeType="text/plain" />
+27-->C:\Users\fox6581-temp\StudioProjects\time_planer\android\app\src\main\AndroidManifest.xml:42:13-50
+27-->C:\Users\fox6581-temp\StudioProjects\time_planer\android\app\src\main\AndroidManifest.xml:42:19-48
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+31-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+31-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+32    <uses-permission android:name="android.permission.VIBRATE" />
+32-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+32-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+33    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+33-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+33-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+34    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+34-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+34-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+35    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+35-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+35-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+36
+37    <application
+38        android:name="android.app.Application"
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.6.0] C:\Users\fox6581-temp\.gradle\caches\transforms-3\284a410c767ad6c7a2b0ffc8d8d85981\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+42        android:label="time_planer" >
+43        <activity
+44            android:name="com.example.time_planer.MainActivity"
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+46            android:exported="true"
+47            android:hardwareAccelerated="true"
+48            android:launchMode="singleTop"
+49            android:taskAffinity=""
+50            android:theme="@style/LaunchTheme"
+51            android:windowSoftInputMode="adjustResize" >
+52
+53            <!--
+54                 Specifies an Android theme to apply to this Activity as soon as
+55                 the Android process has started. This theme is visible to the user
+56                 while the Flutter UI initializes. After that, this theme continues
+57                 to determine the Window background behind the Flutter UI.
+58            -->
+59            <meta-data
+60                android:name="io.flutter.embedding.android.NormalTheme"
+61                android:resource="@style/NormalTheme" />
+62
+63            <intent-filter>
+64                <action android:name="android.intent.action.MAIN" />
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+67            </intent-filter>
+68        </activity>
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+74            android:name="flutterEmbedding"
+75            android:value="2" />
+76
+77        <receiver
+77-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
+78            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+78-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-97
+79            android:exported="false" />
+79-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+80        <receiver
+80-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-28:20
+81            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+81-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-101
+82            android:exported="false" >
+82-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+83            <intent-filter>
+83-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-27:29
+84                <action android:name="android.intent.action.BOOT_COMPLETED" />
+84-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-79
+84-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:25-76
+85                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+85-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-84
+85-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-81
+86                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+86-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-82
+86-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-79
+87                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+87-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-82
+87-->[:flutter_local_notifications] C:\Users\fox6581-temp\StudioProjects\time_planer\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-79
+88            </intent-filter>
+89        </receiver>
+90
+91        <uses-library
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\fox6581-temp\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+92            android:name="androidx.window.extensions"
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\fox6581-temp\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\fox6581-temp\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+94        <uses-library
+94-->[androidx.window:window:1.0.0-beta04] C:\Users\fox6581-temp\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+95            android:name="androidx.window.sidecar"
+95-->[androidx.window:window:1.0.0-beta04] C:\Users\fox6581-temp\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+96            android:required="false" />
+96-->[androidx.window:window:1.0.0-beta04] C:\Users\fox6581-temp\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+97    </application>
+98
+99</manifest>
